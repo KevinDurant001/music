@@ -1,7 +1,7 @@
-import type { FC, CSSProperties, ReactNode } from "react";
+import type { FC, CSSProperties } from "react";
 import styless from "./index.module.less";
 import classNames from "classnames";
-import DefaultIcon, { IiconProps } from "../icon";
+import DefaultIcon from "../icon";
 
 type ICoverProps = {
   style?: CSSProperties;

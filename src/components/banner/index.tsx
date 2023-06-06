@@ -2,12 +2,7 @@ import { FC, useState } from "react";
 import { Swiper } from "antd-mobile";
 import styless from "./index.module.less";
 const Banner: FC = () => {
-  const [swiperList, setSwiper] = useState([
-    "#ace0ff",
-    "#bcffbd",
-    "#e4fabd",
-    "#ffcfac",
-  ]);
+  const [swiperList] = useState(["#ace0ff", "#bcffbd", "#e4fabd", "#ffcfac"]);
 
   const items = swiperList.map((color, index) => {
     return (

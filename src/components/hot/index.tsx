@@ -21,6 +21,7 @@ const Hot: FC = () => {
       </div>
       <div className={styless.list}>
         {[1, 2, 3, 4, 5, 6].map((ite, ind) => {
+          console.log(ite);
           return (
             <Cover
               key={ind}

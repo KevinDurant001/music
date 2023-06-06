@@ -1,7 +1,7 @@
 import type { FC } from "react";
 import styless from "./index.module.less";
 const My: FC = () => {
-  return <div>my</div>;
+  return <div className={styless.container}>my</div>;
 };
 
 export default My;

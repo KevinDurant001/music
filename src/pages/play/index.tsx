@@ -1,10 +1,9 @@
-import { FC, useEffect } from "react";
+import { FC } from "react";
 import styless from "./index.module.less";
-import { useLocation, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import Title from "@/components/title";
 import Icon from "@/components/icon";
 const Home: FC = () => {
-  const location = useLocation();
   const navigate = useNavigate();
   const handleBackClick = () => {
     navigate(-1);
